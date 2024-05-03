@@ -46,3 +46,24 @@ html {
   color: white;
   text-align: left;
 }
+
+
+/* soln */
+.container {
+  display: grid;
+  gap: 15px;
+  grid-template-rows: 1fr 1fr 5fr 1fr;
+  grid-template-columns: 1fr 3fr;
+}
+
+.header {
+  grid-column: 1 / 3;
+}
+
+.footer {
+  grid-column: 1 / 3;
+}
+
+.sidebar {
+  grid-row: 2/4;
+}
